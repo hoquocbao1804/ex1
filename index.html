@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-Pattern Layout</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            
+            color: black;
+            position: fixed;
+            background: aquamarine;
+            top: 0;
+            left: 0;
+            width : 100%;
+            border-bottom: 1px solid black;
+            height: 70px;
+           
+        }
+        .header1{
+            position: fixed;
+            top: 0;
+        }
+        .header1 a{
+            text-decoration: none;
+            max-width: 100px;
+            display: flex;
+            color: black;
+        }
+        .header1 a:hover{
+                color: orange;
+                transition: 0.4s
+        }
+        
+
+        nav {
+            padding: 20px;
+            text-align: center;
+            margin-left: 300px;  
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            size: 20px;
+            font-weight: 700;
+            
+        }
+        #nav a:hover{
+                color: orange;
+                transition: 0.3s
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-top: 60px;
+        }
+        .content{
+             margin: auto;
+             max-width: 870px;
+             font-weight: 900;
+   
+        }
+
+        .content p { 
+             font-size: 15px;
+        }
+        .content h3{ 
+             color: darkgray;
+             margin-left: 150px;
+        }
+        .comment{
+             display: flex;
+        }
+
+        section {
+            flex: 1;
+        }
+
+        aside {
+            width: 250px;
+            background-color: #eee;
+            padding: 15px;
+        }
+        
+        aside a{ 
+            text-decoration: none;
+            color: black;
+
+        }
+        aside a:hover{
+            color: orange;
+            transition: 0.3s
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="header1" class=" header1">
+            <h1>ChatGPT </h1> 
+         </div>
+         <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    
+
+    </header>
+
+    
+    <main>
+        <section>
+            <div class="content ">
+                <h1>Just one day after being fired, OpenAI is negotiating to invite the 'father' of ChatGPT to return to work.</h1>
+                <p>The leadership of OpenAI is seeking to invite former CEO Sam Altman back to work, despite having just dismissed him the day before.</p>
+               
+               <h3><img src="img/Cựu ceo.webp" alt="Former OpenAI CEO, Mr. Sam Altman " width="600px"  > <br>
+                   Former OpenAI CEO, Mr. Sam Altman. </h3>
+               <p>According to Reuters, the "father" of ChatGPT, Sam Altman, is reportedly in discussions 
+                   with OpenAI about the possibility of returning to work at the company. OpenAI had previously
+                   shocked the artificial intelligence (AI) technology industry by announcing Altman's dismissal
+                   on November 18th.</p> 
+               <p>
+                   OpenAI explained that they lacked trust in Mr. Altman and believed that new leadership was needed 
+                   to drive the company's development further. However, in the latest move, the leaders of the company 
+                   are seeking ways to reinstate the position for the creator of the ChatGPT tool.
+               </p> 
+               <p>
+                   After being dismissed, Mr. Altman engaged in discussions with OpenAI's executives about improving 
+                   the management structure. The former CEO simultaneously consulted with some core scientists of the 
+                   company and those loyal to him about the idea of establishing a new artificial intelligence company.
+               </p>
+               <h3><img  src="img/altman.webp"  alt="Altman của OpenAI tham dự hội nghị ở APEC ở Mỹ  "  width="600px" > <br>OpenAI's Altman attends the APEC conference in the U.S..  </h3>
+               <p>
+                   OpenAI's investors, including Microsoft, are concerned that the company's talent might "migrate" in 
+                   large numbers due to the absence of Mr. Altman, so they are actively seeking ways to mitigate the damage.
+               </p>
+               <p>
+                   Investors are exerting pressure on the board to reinstate the CEO position for the 38-year-old tech entrepreneur.
+               </p>
+               <p>
+                   Mr. Vinod Khosla, the founder of the technology startup support fund Khosla Ventures, posted on Twitter
+                    expressing his desire for Mr. Altman to return to OpenAI. However, Mr. Khosla mentioned that he would continue
+                     to support the former CEO even if the "father" of ChatGPT chose a different path.
+               </p>
+               <p>
+                   Reuters reports that current and former OpenAI employees are extremely upset upon learning of Mr.
+                    Altman's dismissal. Some are even so shocked that they are considering resigning if Mr. Altman does 
+                    not return by the end of the week.
+               </p>
+               <p>
+                   
+                   The sudden dismissal of CEO Sam Altman by OpenAI is believed to have a significant impact on the
+                    upcoming $86 billion stock sale. According to official reports, Microsoft owns 49% of the company,
+                     while investors and employees control 49%. Only the remaining 2% is under the ownership of OpenAI.
+               </p>
+   
+               <form  class="comment">
+                   <input type="text" name="fullname" placeholder="name " > <br>
+                   <textarea name="comment " id="" cols="30" rows="2" placeholder="comment "></textarea> <br>
+                   <input type="submit" value="comment"> <br>
+               </form> 
+           </div>
+        </section>
+
+        <aside>
+            <h2>newspaper</h2>
+            <div class="image">
+                <a href=""><img src="img/Mới sa thải 1 ngày, OpenAI đàm phán mời ‘cha đẻ’ ChatGPT quay lại làm việc.webp" alt=""width="250px">
+                    
+                    Just one day after being fired, OpenAI is negotiating to invite the 'father' of ChatGPT to return to work.
+                </a>
+            </div>
+            <div class="image">
+               <a href=""><img src="img/Mbappe lập hat-trick giúp Pháp thắng kỷ lục 14-0.webp" alt="" width="250px">
+                Mbappe scores a hat-trick to help France win a record-breaking 14-0 victory.
+                </a>
+            </div>
+            
+            <div class="image">
+                <a href=""><img src="img/Máy lọc không khí Meliwa ‘thuyết phục’ Shark Hùng Anh như thế nào.webp" alt=""width="250px">
+                    How does the Meliwa air purifier 'convince' Shark Hùng Anh?
+                </a> 
+            </div>
+            <div class="image">
+                <a href=""><img src="img/Nga nối lại tấn công thủ đô Kiev sau 52 ngày.webp" alt=""width="250px">
+                    Russia resumes the offensive on the Ukrainian capital Kiev, after 52 days.
+                </a>
+            </div>
+            
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 F-Pattern Layout. All rights reserved.</p>
+    </footer>
+
+
+   
+</body>
+
+</html>
